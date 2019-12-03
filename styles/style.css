@@ -15,12 +15,12 @@ body {
 
 
 .top_info {
-	height: 400px;
+	height: 380px;
 	width: 500px;
 	border: solid black;
 	margin-top: 60px;
 	margin-left: 670px;
-	padding: 1% 1% 2% 2%;
+	padding: 0 1% 2% 2%;
 }
 
 .top_info_of_p {
@@ -63,4 +63,18 @@ body {
 .button_under_top_info_of_a {
 	font-size: 1.5em;
 	padding-bottom: 0;
+}
+
+
+
+
+
+.middle_div {
+	height: 300px;
+	width: 700px;
+	border: solid black;
+	margin-left: 580px;
+	margin-top: 500px;
+	text-align: center;
+	padding: 2% 2% 2% 2%;
 }

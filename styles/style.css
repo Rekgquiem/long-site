@@ -1,0 +1,51 @@
+.body {
+	margin: 0;
+	padding: 0;
+	background-color: #DCDCDC;
+	position: absolute;
+	font-family: 'Bree Serif', serif;
+}
+
+
+
+
+.top_info {
+	height: 400px;
+	width: 500px;
+	border: solid black;
+	margin-top: 60px;
+	margin-left: 670px;
+	padding: 1% 1% 2% 2%;
+}
+
+.top_info_of_p {
+	font-size: 2em;
+}
+
+
+
+
+
+.a::link, .a::visited, .a::active {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+.button_under_top_info {
+	height: 30px;
+	width: 120px;
+	border: solid black;
+	margin-left: 870px;
+	margin-top: 30px;
+	text-align: center;
+	padding: 1% 1% 1% 1%;
+}
+
+.button_under_top_info_of_a {
+	font-size: 1.2em;
+	padding-bottom: 0;
+}

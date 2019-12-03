@@ -1,10 +1,15 @@
-.body {
+body {
 	margin: 0;
 	padding: 0;
+}
+
+.body {
 	background-color: #DCDCDC;
 	position: absolute;
 	font-family: 'Bree Serif', serif;
+	height: 200%;
 }
+
 
 
 
@@ -26,7 +31,17 @@
 
 
 
-.a::link, .a::visited, .a::active {
+.all_a:link {
+	text-decoration: none;
+	color: black;
+}
+
+.all_a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.all_a:active {
 	text-decoration: none;
 	color: black;
 }
@@ -36,16 +51,16 @@
 
 
 .button_under_top_info {
-	height: 30px;
-	width: 120px;
+	height: 20px;
+	width: 119px;
 	border: solid black;
 	margin-left: 870px;
 	margin-top: 30px;
 	text-align: center;
-	padding: 1% 1% 1% 1%;
+	padding: 0 1% 1% 1%;
 }
 
 .button_under_top_info_of_a {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	padding-bottom: 0;
 }
